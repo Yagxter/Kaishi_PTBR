@@ -20,13 +20,13 @@ Existem várias opções que você pode usar para modificar seus cartões. Para 
 
 ### Pitch Accent
 
-The most important option is whether you would like to include pitch accent on your cards. Currently, whether one should learn pitch accent or not tends to spawn pretty heated arguments in the community. We decided to take a middle ground approach: the pitch accent data is there for you, you choose whether you want to use it. If you decide not to use it, you can always enable it later. The way you enable pitch accent is easy. Here is the card options under `Back Template` for the deck (click on the small dot above the `Search` bar.)
+A opção mais importante é se você gostaria de incluir o pitch accent em seus cartões. Atualmente, a questão de se deve ou não aprender pitch accent tende a gerar debates acalorados na comunidade. Optamos por adotar uma abordagem intermediária: os dados de pitch accent estão disponíveis para você, e você decide se deseja usá-los. Se decidir não usar, sempre poderá ativá-los posteriormente. Habilitar o pitch accent é fácil. Aqui estão as opções de cartão sob o `Modelo de trás` para o baralho (clique no ponto pequeno acima da barra de `Pesquisa`).
 
 ```CSS
 <div lang="ja">
 {{furigana:Word Furigana}}
 
-<!-- This part enables pitch accent.
+<!-- Essa parte habilita o pitch accent.
 
 {{#Pitch Accent}}
 	<br><div style='font-size: 24px'>{{Pitch Accent}}</div>
@@ -46,7 +46,7 @@ The most important option is whether you would like to include pitch accent on y
 	<div style="font-size: 20px; padding-top:12px">Note: {{Notes}}</div>
 {{/Notes}}
 
-<!-- This part enables pitch accent notes.
+<!-- Esta parte habilita notas sobre o pitch accent.
 
 {{#Pitch Accent Notes}}
 <div style="font-size: 20px; width: fit-content; max-width:40vw; margin: auto">
@@ -60,7 +60,7 @@ The most important option is whether you would like to include pitch accent on y
 </div>
 ```
 
-To enable pitch accent, you simply need to take out all the `<!--` and `-->` parts which represent comments, like so: 
+Para habilitar o pitch accent, você só precisa remover todos os `<!--` e os `-->` que são partes que representam comentários, assim: 
 
 ```CSS
 <div lang="ja">
@@ -92,16 +92,16 @@ To enable pitch accent, you simply need to take out all the `<!--` and `-->` par
 </div>
 ```
 
-### Minor options
+### Opções secundárias
 
-There are a couple of minor options you can modify.
+Existem algumas opções secundárias que você pode modificar.
 
 #### Furigana
-If you would like to take out furigana, simply take out the `furigana:` parts of the back template.
+Se você desja remover o furigana, simplesmente remova as partes que falam `furigana:` do modelo de trás.
 
-#### Other card options
+#### Outras opções de cartão
 
-You could entirely change the type of cards you want to see. Here is the `Front Template` of Kaishi 1.5k:
+Você poderia mudar completamente o tipo de cartões que deseja ver. Aqui está o `Modelo da Frente` do Kaishi 1.5k:
 
 ```CSS
 <div lang="ja">
