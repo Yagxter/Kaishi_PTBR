@@ -1,22 +1,22 @@
 # Kaishi 1.5k
 
-Welcome to the public repository for **Kaishi 1.5k**, a modern Anki deck made to introduce beginners to basic Japanese vocabulary. Kaishi 1.5k is highly modular and this page is dedicated to explaining various options you can use to change the deck to your liking. Here is what the front of the deck looks like:
+Bem-vindo ao repositório público para **Kaishi 1.5k**, um baralho Anki moderno feito para introduzir iniciantes ao vocabulário básico de japonês. Kaishi 1.5k é altamente modular e esta página está aqui para explicar várias opções que você pode usar para personalizar o baralho conforme sua preferência. Aqui está como a frente do baralho é apresentada:
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/front-card.png" alt="Front of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-As you can see, both the word and the sentences are there but the word is highlighted in the sentence, making it easy to immediately isolate the important information. Once the word is known well, reviewing is faster because the word appears first. Here is the backside of the default deck:
+Como você pode notar, tanto a palavra quanto as frases estão presentes, mas a palavra é destacada na frase, tornando fácil isolar imediatamente a informação importante. Uma vez que você esteja familiarizado com a palavra, a revisão se torna mais rápida, já que a palavra aparece primeiro. Aqui está o verso do baralho padrão:
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/back-card.png" alt="Back of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-Contrary to most of the decks, here furigana gives the reading of the word, with the meaning right below. Audio for the word and for the sentence are then available for you. If you would like, you can also add pitch accent, see below. If there are notes related to that specifc card, they are displayed down below. 
+Diferentemente da maioria dos baralhos, aqui o furigana mostra a leitura da palavra, com o significado logo abaixo. Além disso, há áudio para a palavra e para a frase disponíveis. Se preferir, também pode adicionar o pitch accent, conforme explicado abaixo. Quaisquer notas relacionadas a esse cartão específico serão exibidas logo abaixo.
 
-## Where do I get the deck?
+## Onde eu consigo o baralho?
 
-You can either get the deck on the [releases](https://github.com/donkuri/Kaishi/releases/) page of this GitHub or on [AnkiWeb](https://ankiweb.net/shared/info/1196762551), provided the deck is not undergoing review. **The deck is supported on Anki 2.1.50+.**
+Você pode obter o baralho na página de [releases](https://github.com/donkuri/Kaishi/releases/) deste GitHub ou no [AnkiWeb](https://ankiweb.net/shared/info/1196762551), desde que o baralho não esteja passando por revisão. **O baralho é compatível com o Anki 2.1.50 ou superior.**
 
-## What options are available for the deck?
+## Quais opções estão disponíveis para o deck?
 
-There are multiple options you can use to change your cards. To modify them, select the Kaishi deck, click `Browse`, select any card from the deck, and click `Cards...` on the top right.
+Existem várias opções que você pode usar para modificar seus cartões. Para modificá-los, selecione o baralho Kaishi, clique em `Navegar`, escolha qualquer cartão do baralho e clique em `Cartões...` no canto superior direito.
 
 ### Pitch Accent
 
