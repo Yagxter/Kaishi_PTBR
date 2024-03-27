@@ -60,7 +60,7 @@ A opção mais importante é se você gostaria de incluir o pitch accent em seus
 </div>
 ```
 
-Para habilitar o pitch accent, você só precisa remover todos os `<!--` e os `-->` que são partes que representam comentários, assim: 
+Para habilitar o pitch accent, você só precisa remover todos os `<!--` e os `-->` que são partes que indicam comentários, assim: 
 
 ```CSS
 <div lang="ja">
@@ -110,11 +110,11 @@ Você poderia mudar completamente o tipo de cartões que deseja ver. Aqui está 
 </div>
 ```
 
-As you can see, we only have the word and the sentence. If you would like *sentence* cards, simply take out the `{{Word}}` part, or put `Sentence` inside instead and take out the rest. If you would like *word* cards, simply take out the `<div style='font-size: 20px;'>{{Sentence}}</div>` part. If instead you would like *audio* cards, take out everything and add `{{Word Audio}}`, `{{Sentence Audio}}` or both if you would like both.
+Como pode ver, temos apenas a palavra e a frase. Se você deseja cartões de *frase*, basta remover a parte `{{Word}}`, ou substituí-la por `Sentence` e remover o resto. Se preferir cartões de *palavra*, simplesmente remova a parte `<div style='font-size: 20px;'>{{Sentence}}</div>`. Se, em vez disso, preferir cartões de *áudio*, remova tudo e adicione `{{Word Audio}}`, `{{Sentence Audio}}` ou ambos se desejar ambos.
 
-#### Changing the fonts, font size or other styling options
+#### Alterando as fontes, o tamanho da fonte ou outras opções de estilo
 
-Here is the `Styling` template of Kaishi 1.5k:
+Aqui está o modelo de "Estilo" do Kaishi 1.5k:
 
 ```CSS
 .card {
@@ -123,15 +123,15 @@ Here is the `Styling` template of Kaishi 1.5k:
  text-align: center;
 }
 
-/* This part defines the bold coolor. */
+/* Esta parte define a cor do negrito.. */
 b{color: #5586cd}
 ```
 
-You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
+Você pode encontrar várias opções de estilo [aqui](https://docs.ankiweb.net/templates/styling.html). Como pode ver, o Kaishi 1.5k usa poucas opções na guia de estilo. Você pode alterar a opção `font-family` para escolher fontes diferentes, `font-size` para mudar o tamanho da fonte e `text-align` para ajustar o alinhamento do texto, como deixá-lo alinhado à esquerda. Por padrão, o Kaishi 1.5k destaca palavras em negrito. Para mudar isso, você usa `b{color: }`, onde pode simplesmente inserir um código hex ou um nome de cor, como `red`, para alterar a cor. Se preferir sem cor, basta remover toda a parte `b{color: }`.
 
-## How to import Kaishi 1.5k on top of another deck
+## Como importar o Kaishi 1.5k por cima de outro baralho
 
-If you already started Core2k or Tango N4-N5 (or some other similar deck) and you would like to switch to Kaishi 1.5k, you can follow these steps written by [Kuuube](https://github.com/Kuuuube).
+Se você já começou a usar o Core2k ou o Tango N4-N5 (ou algum outro baralho similar) e deseja mudar para o Kaishi 1.5k, pode seguir estas instruções escritas pelo [Kuuube](https://github.com/Kuuuube).
 
 1. Import Kaishi normally with the .apkg file.
 2. Go to `File > Export...` and export the Kaishi deck using `Notes in Plain Text (.txt)`. Leave all other settings default.
@@ -159,36 +159,33 @@ Kaishi, written 開始 means "start, beginning". We thought this fit properly so
 
 If you are interested in translating the deck in your native language, please make an issue on [the GitHub tracker](https://github.com/donkuri/Kaishi/issues).
 
-## Credits
+## Créditos
 
-This deck was made with the help of these people:
+Este baralho foi criado com a colaboração dessas pessoas:
 
-[栗](https://github.com/donkuri/) - main architect, all technical aspects, translations, proofreading
+[栗](https://github.com/donkuri/) - principal arquiteto, responsável por todos os aspectos técnicos traduções e revisões
 
-Tyogin - main architect, reordered the first 200 cards, changed the sentences, proofreading
+Tyogin - principal arquiteto, reorganizou as primeiras 200 cartas, alterou as frases e revisou o conteúdo
 
-shoui - proofreading the entire deck, fixed translations
+shoui - revisou todo o baralho e corrigiu as traduções
 
-Julian - helped add notes and checked some sentence translations
+Julian - ajudou a adicionar notas e verificou algumas traduções de frases
 
-karifurai - verified the pitch accent for the first 750 cards and added pitch notes
+karifurai - verificou o pitch accent das primeiras 750 cartas e adicionou pitch notes
 
-cindsa - verified the pitch accent for the last 750 cards and added pitch notes
+cindsa - verificou o pitch accent das últimas 750 cartas e adicionou pitch notes
 
-[Kuuube](https://github.com/Kuuuube) - suggested the use of FFmpeg, wrote the transferring cards to Kaishi 1.5k section above
+[Kuuube](https://github.com/Kuuuube) - sugeriu o uso de FFmpeg, escreveu a transferência de cartas para o Kaishi 1.5k na seção acima
 
-[stephenmk](https://github.com/stephenmk) - ran the Jmdict Furigana tool on Kaishi 1.5k to fix furigana, see v1.3.0
+[stephenmk](https://github.com/stephenmk) - executou a ferramenta Jmdict Furigana no Kaishi 1.5k para corrigir o furigana, veja a ver v1.3.0
 
-These tools were used in the creation of the deck:
+Essas ferramentas foram usadas na criação do baralho:
 
-[AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - pitch accent, furigana and some of the audio were generated using this add-on
+[AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - pitch accent, furigana e alguns dos áudios foram gerados usando este add-on
 
-[FFmpeg](https://ffmpeg.org/) - used to take out some silent parts in various audio files
+[FFmpeg](https://ffmpeg.org/) - usado para remover partes silenciosas em vários arquivos de áudio
 
-[Tenacity](https://tenacityaudio.org/) - used to edit clipping sounds in various audio files
+[Tenacity](https://tenacityaudio.org/) - utilizado para editar sons de cortes em diversos arquivos de áudio
 
-We also got various ideas from multiple members of the TMW discord server, including the name of the deck itself.
-
-
-
+Também recebemos várias ideias de diversos membros do servidor de Discord da TMW, inclusive o nome do próprio baralho em si.
 
